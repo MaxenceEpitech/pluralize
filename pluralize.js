@@ -270,6 +270,7 @@
    */
   [
     // Pronouns.
+    ['linkedAPI', 'linkedAPIs'],
     ['I', 'we'],
     ['me', 'us'],
     ['he', 'they'],
