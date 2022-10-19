@@ -60,6 +60,9 @@
       return token.charAt(0).toUpperCase() + token.substr(1).toLowerCase();
     }
 
+    if (token === 'linkedapis') return 'linkedAPIs';
+    if (token === 'linkedAPIs') return 'linkedAPI';
+
     // Lower cased words. E.g. "test".
     return token.toLowerCase();
   }
